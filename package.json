@@ -1,0 +1,32 @@
+{
+  "name": "serenify-backend",
+  "version": "1.0.0",
+  "description": "Serenify AI Mental Wellness Backend - Gemini API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "mental-health",
+    "ai-chatbot",
+    "gemini",
+    "wellness",
+    "serenify"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "google-generativeai": "^0.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
