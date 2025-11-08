@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Import Google Generative AI
-const { GoogleGenerativeAI } = require("google-generativeai");
+const { GoogleGenerativeAI } = require("google/generative-ai");
 
 // Initialize with API key from environment variable
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
