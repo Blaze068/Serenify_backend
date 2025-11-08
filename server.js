@@ -66,7 +66,7 @@ Please reach out to someone you trust or call one of these numbers. Your life ma
 
 NEVER ignore crisis language. Always respond with compassion and helplines.`;
 
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     
     // Combine system prompt with user message
     const fullPrompt = systemPrompt + "\n\nUser: " + userMessage + "\n\nSerenify:";
